@@ -6,7 +6,7 @@ RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
 RUN apt-get install -y inotify-tools nodejs
 
 RUN mix local.hex --force
-RUN mix archive.install hex phx_new 1.4.10 --force
+RUN mix archive.install hex phx_new 1.5.6 --force
 
 WORKDIR /code
 
